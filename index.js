@@ -12,8 +12,8 @@ function sendEmail(gmail) {
   const transporter = nodemailer.createTransport({
     service: "gmail",
     auth: {
-      user: "Your gmail address",
-      pass: "Your gmail address password",
+      user: "nodegmrv1@gmail.com",
+      pass: "nodegmrv12345",
     },
   });
 
