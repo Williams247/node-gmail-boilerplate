@@ -1,0 +1,14 @@
+{
+  "name": "mail",
+  "version": "1.0.0",
+  "description": "Test mail",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Williams Alex",
+  "license": "ISC",
+  "dependencies": {
+    "nodemailer": "^6.7.2"
+  }
+}
