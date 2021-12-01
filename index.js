@@ -21,7 +21,7 @@ function sendEmail(gmail) {
     from: "nodegmrv1@gmail.com",
     to: gmail,
     subject: "Test mail!",
-    text: `A message from Node Gmailer to ${gmail}, saying hello!`,
+    text: `A message from NodeGmailer to ${gmail}, saying hello!`,
   };
 
   transporter.sendMail(mailOptions, function (error, info) {
