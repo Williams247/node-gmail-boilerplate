@@ -12,8 +12,8 @@ function sendEmail(gmail) {
   const transporter = nodemailer.createTransport({
     service: "gmail",
     auth: {
-      user: "nodegmrv1@gmail.com",
-      pass: "nodegmrv12345",
+      user: "",
+      pass: "",
     },
   });
 
@@ -28,7 +28,7 @@ function sendEmail(gmail) {
     if (error) {
       console.log(error);
     } else {
-      console.log(`We've sent a mail to this gmail address = ${gmail}!`);
+      console.log(`NodeGmailer has sent a mail to this gmail address = ${gmail}!`);
       console.log("NOTE: If you did not get the mail in your primary mail, check your spam.")
     }
   });
